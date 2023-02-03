@@ -1,0 +1,13 @@
+.myPanel.mat-select-panel {
+  background-color: darkslategray;
+  width: 100%;
+  column-count: 3;
+}
+
+.myPanel .mat-option {
+  color: lightskyblue !important;
+}
+
+.myPanel .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: salmon !important;
+}
